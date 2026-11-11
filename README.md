@@ -4,6 +4,6 @@ Category pages can drift as templates, brand relationships and editorial content
 
 The private source contains PHP and Python tools for content checks, metadata inspection and template maintenance. The published baseline deliberately leaves out exported content, connection helpers and operational reports. Some tools require separate local inputs and should be reviewed before they are used to write to a store.
 
-All included PHP scripts passed syntax checks, Python sources compiled without execution, and the reviewed source passed a secret scan. No site content, search index or database was changed during publication. Search-ranking improvements were not measured.
+The private tools support guarded updates with current-state checks, backups and public-page verification. The November 2026 on-page release updated brand category and related article copy on the live site; the scope and checks are recorded in the changelog. Search-ranking improvements have not been measured.
 
 This repository documents the purpose and validation boundary; it is not a runnable copy of the private tools.
